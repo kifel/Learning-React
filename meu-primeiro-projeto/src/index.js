@@ -1,10 +1,10 @@
 import React from 'react';
-import { View } from 'react-native';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-// import { Container } from './styles';
-
-const App = () => {
-  return <View />;
-}
-
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
