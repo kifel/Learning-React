@@ -1,4 +1,5 @@
 import "./App.css";
+import Frase from "./components/Frase";
 import HelloWorld from "./components/HelloWorld";
 import Pessoa from "./components/Pessoa";
 import SayMyName from "./components/SayMyName";
@@ -14,6 +15,7 @@ function App() {
         profissao="Developer"
         foto="https://avatars.githubusercontent.com/u/61091742?v=4"
       />
+      <Frase />
     </div>
   );
 }
