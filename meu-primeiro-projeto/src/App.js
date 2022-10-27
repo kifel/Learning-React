@@ -1,9 +1,10 @@
 import "./App.css";
+import Contador from "./components/Contator";
 import Frase from "./components/Frase";
 import HelloWorld from "./components/HelloWorld";
 import Pessoa from "./components/Pessoa";
 import SayMyName from "./components/SayMyName";
-
+ 
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         foto="https://avatars.githubusercontent.com/u/61091742?v=4"
       />
       <Frase />
+      <Contador />
     </div>
   );
 }
