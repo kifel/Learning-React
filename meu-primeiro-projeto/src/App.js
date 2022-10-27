@@ -1,5 +1,5 @@
 import "./App.css";
-import Contador from "./components/Contator";
+import Contador from "./components/Contador";
 import Frase from "./components/Frase";
 import HelloWorld from "./components/HelloWorld";
 import Pessoa from "./components/Pessoa";
