@@ -22,7 +22,7 @@ export function userFetch<T = unknown>(url: string) {
       .finally(() => {
         setIsFetching(false);
       });
-  });
+  }, []);
 
   return { user, isFetching, error };
 }
