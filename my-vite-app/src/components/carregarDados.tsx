@@ -13,9 +13,9 @@ interface requestApi {
   url: string;
 }
 
-export const CarregarDados: React.FC<requestApi> = (url) => {
+export const CarregarDados: React.FC<requestApi> = ({url}) => {
   const { user, isFetching } = userFetch<UserContent>(
-    `${url.url}`
+    `${url}`
   );
 
   return (
