@@ -1,5 +1,5 @@
 import './App.css'
-import User from './pages/Perfil'
+import { User } from './pages/Perfil'
 
 function App() {
 
