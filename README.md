@@ -1,6 +1,6 @@
 # Learning React
 
-Disciplina de React do Serratec
+Estudando um pouco de React
 
 ![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
@@ -34,11 +34,6 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ## ✒️ Autores
 
 * **João Victor de Mello Pereira** - *Desenvolvimento do código* - [KifelG](https://github.com/kifel)
-* **Gabriel Forte** - *Desenvolvimento do código* - [gabeforte](https://github.com/gabeforte)
-* **Luciano Maia** - *Desenvolvimento do código* - [LucianoMaiaJR](https://github.com/LucianoMaiaJR)
-* **Aniello Longobardi** - *Desenvolvimento do código* - [nello0517](https://github.com/nello0517)
-* **Roberto De Andrade** - *Desenvolvimento do código* - [RobertoDeAndrade](https://github.com/RobertoDeAndrade)
-* **Roni Schanuel** - *Professor da API-RESTFULL* - [roni-inf](https://github.com/roni-inf)
 
 --- 
  
