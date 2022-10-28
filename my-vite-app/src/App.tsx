@@ -1,15 +1,32 @@
-import "./App.css";
+import React, { useState } from "react";
 import { User } from "./pages/Perfil";
 
-function App() {
+
+interface UserContent {
+  login: string;
+  avatar_url: string;
+  bio: string;
+}
+
+export const App: React.FC = () => {
+  const [user, setUser] = useState<UserContent>();
+
+  async function loadData() {
+    const response = await fetch("https://api.github.com/users/kifel");
+    const data = await response.json();
+
+    setUser(data);
+  }
+  
+  loadData();
+
   return (
     <div className="App">
       <User
-        name="kifel"
-        foto="https://avatars.githubusercontent.com/u/61091742?v=4"
+        name={user?.login}
+        foto={user?.avatar_url}
+        bio={user?.bio}
       />
     </div>
   );
-}
-
-export default App;
+};
