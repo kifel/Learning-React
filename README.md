@@ -19,8 +19,9 @@ Disciplina de React do Serratec
 
 O projeto está desenvolvido utilizando as seguintes tecnologias:
 
-- Java
-- Spring Boot
+- React
+- TypeScript
+- JavaScript
 
 --- 
 
