@@ -8,9 +8,13 @@
   align-items: center;
 }
 
+.wrapper .user {
+  margin-top: 0;
+}
+
 .wrapper p {
   margin-top: 2.4rem;
-  padding: 2.4rem 3.2rem 3.2rem; 
+  padding: 2.4rem 3.2rem 3.2rem;
 
   background: transparent;
   color: var(--white);
@@ -20,7 +24,7 @@
   padding: 0 2.4rem;
   font-weight: bold;
   text-decoration: none;
-  
+
   display: flex;
   text-align: center;
   align-items: center;

@@ -10,7 +10,7 @@ type Props = {
 export const User: React.FC<Props> = ({ name, login,foto, bio }) => {
   return (
     <div className={styles.wrapper}>
-      <p>Nome do Usuário: {login}</p>
+      <p className={styles.user}>Nome do Usuário: {login}</p>
       <img src={foto} alt={name} />
       <p>Bio: {bio}</p>
       <p>Bem vindo ao sistema {name}</p>

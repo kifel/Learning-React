@@ -1,12 +1,12 @@
 import React from "react";
-import { CarregarDados } from "./components/carregarDados";
-import './global.css';
+import "./global.css";
+import { UserFetch } from "./hooks/userApi";
 
 export const App: React.FC = () => {
   return (
     <div>
       <h1>Consumindo API do GitHub</h1>
-      <CarregarDados url="kifel" />
+      <UserFetch />
     </div>
   );
 };
