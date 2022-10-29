@@ -21,7 +21,7 @@ export const CarregarDados: React.FC<requestApi> = ({url}) => {
   return (
     <div className="App">
       { isFetching && <p>Carregando...</p> }
-      <User name={user?.name} foto={user?.avatar_url} bio={user?.bio} />
+      <User name={user?.login} foto={user?.avatar_url} bio={user?.bio} login={user?.name} />
     </div>
   );
 }
