@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 120rem;
+  margin: 3.2rem auto;
+  padding: 0 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .user {
+  margin-top: 0;
+}
+
+.wrapper p {
+  margin-top: 2.4rem;
+  padding: 2.4rem 3.2rem 3.2rem;
+
+  background: transparent;
+  color: var(--white);
+  border: 1px solid var(--green-500);
+  border-radius: 8px;
+  height: 50px;
+  padding: 0 2.4rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper img {
+  border-radius: 8px;
+  padding-top: 2.4rem;
+  overflow: hidden;
+  object-fit: cover;
+}
